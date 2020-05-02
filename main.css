@@ -1,0 +1,33 @@
+#main {
+    
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+
+  h1{
+    text-align: center;
+    font: size 2vw;
+  }
+  p{
+    text-align: center;
+    font: size 2vw;
+  }
+
+
+  #ul{
+    
+    font: size 2vw;
+    list-style-type: none;
+    align-items: left;
+      
+  }
+  
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    #main{
+        padding: 0px;
+        width:98%;
+    }
+  }
