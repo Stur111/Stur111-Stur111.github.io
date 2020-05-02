@@ -37,6 +37,10 @@ a{
     /* For mobile phones: */
     #main{
         padding: 0px;
-        width:98%;
+        width:100%;
+        
+    }
+    body{
+        background-color: #2d271d;
     }
   }
