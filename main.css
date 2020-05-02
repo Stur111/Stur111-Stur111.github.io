@@ -54,6 +54,18 @@ a{
         width:100%;
         
     }
+    #ul{
+        width: 60vw;
+    }
+    h1{
+        font-size: 4vw;
+    }
+    p{
+        font-size: 3vw;
+    }
+    a{
+        font-size: 3vw;
+    }
     body{
         background-color: #2d271d;
     }
