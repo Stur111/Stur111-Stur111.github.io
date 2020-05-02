@@ -4,31 +4,34 @@ body{
 }
 #main {
     /* box-shadow: 2px 2px #ffaaab; */
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
 
-    
     color: #EAC67A;
     margin: auto;
-
-    width: 60%;
- 
     
+    height: 20vw;
+    width: 50vw;
     /* border: 3px solid #ffaaab; */
     background-color: #2d271d;
     padding: 10px;
   }
 
   h1{
+    font-size: 3vw;
     color: #d8ab4e;
     text-align: center;
-    font: size 2vw;
+    f
   }
   p{
     text-align: center;
-    font: size 2vw;
+    font-size: 1.5vw;
   }
 
 #ul{
-    width: 37%; /*can be in percentage also.*/
+    width: 30vw; /*can be in percentage also.*/
     height: auto;
     margin: 0 auto;
     padding: 10px;
@@ -36,7 +39,7 @@ body{
 }
   ul{
     
-    font: size 2vw;
+    font-size: 1.5vw;
     /* list-style-type: none;  */
     text-align: left;
       
