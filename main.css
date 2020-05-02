@@ -1,12 +1,17 @@
 body{
-    background-color: #fff5d7
+    background-color: #fff5d7;
+
 }
 #main {
     /* box-shadow: 2px 2px #ffaaab; */
+
+    
     color: #EAC67A;
     margin: auto;
+
     width: 60%;
-    height: 80%;
+ 
+    
     /* border: 3px solid #ffaaab; */
     background-color: #2d271d;
     padding: 10px;
@@ -22,12 +27,18 @@ body{
     font: size 2vw;
   }
 
-
-  #ul{
+#ul{
+    width: 37%; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+  ul{
     
     font: size 2vw;
-    list-style-type: none;
-    align-items: left;
+    /* list-style-type: none;  */
+    text-align: left;
       
   }
 a{
