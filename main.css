@@ -2,6 +2,12 @@ body{
     background-color: #fff5d7;
 
 }
+.subtitle{
+  text-decoration: underline;
+  font-size: 1.5vw;
+  color: #d8ab4e;
+
+}
 #main {
     /* box-shadow: 2px 2px #ffaaab; */
     position:absolute; /*it can be fixed too*/
@@ -23,6 +29,7 @@ body{
     color: #d8ab4e;
     text-align: center;
   }
+  
   p{
     text-align: center;
     font-size: 1.5vw;
@@ -32,7 +39,7 @@ body{
     width: 30vw; /*can be in percentage also.*/
     height: auto;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px;
     position: relative;
 }
   ul{
@@ -58,6 +65,9 @@ a{
        width: 60vw;
   
        
+    }
+    .subtitle{
+      font-size: 3vw;
     }
     h1{
         font-size: 4vw;
